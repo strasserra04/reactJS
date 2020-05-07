@@ -1,14 +1,15 @@
-# Sample 01 - Logging In and Gated Content
+# Auth0 Linkedin Login with AWS Cognito in ReactJS
 
 This sample demonstrates:
 
 - Logging in to Auth0 using Redirect Mode
 - Accessing profile information that has been provided in the ID token
 - Gated content. The `/profile` route is not accessible without having first logged in
+- Logging in via Social Properties - LinkedIn (Federated Provider)
 
 ## Project setup
 
-Use `yarn` or `npm` to install the project dependencies:
+Use `npm` to install the project dependencies:
 
 ```bash
 # Using npm..
